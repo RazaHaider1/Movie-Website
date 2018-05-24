@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--------------Head-------------------->
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-index=1">  
+ <title>Download_Movies</title>    
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+
+<!--------------CSS Styles--------------->
+<style>     
+ .jumbotron{
+        font-family:sans-serif;
+        height: 480px;
+        
+    }   
+    h1{
+        padding: 33px 0px 9px 0px;
+    }    
+    #fictional{
+        
+        height: 600px;
+    }
+    p{
+        font-family: sans-serif;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    footer{
+        border: 1px solid black;
+        padding: 30px 0 30px 0;
+        
+        background: #0b0b0d;
+        color: #fff;
+    }
+    .img-circle:hover {
+        background: #292F33;
+    }
+    
+
+</style>
+</head> 
+<!--------------Body---------------------->
+<body data-spy="scroll" data-target=".navbar" offset="13" style="background-color: darkslategray;">
+<!--------------Navbar-------------------->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+ <div class="navbar-header">
+  <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>     
+   <span class="icon-bar"></span>
+  </button>         
+  <a href="#" class="navbar-brand">Movies Mania</a>    
+ </div>
+    
+ <div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+    <li class="active"><a href="#home">HOME</a></li>  
+    <li class="dropdown"><a href="#movies" class="dropdown-toggle" data-toggle="dropdown">MOVIES <span class="caret"></span></a>
+   <ul class="dropdown-menu">
+  <li><a href="#fictional">FICTIONAL</a></li>    
+ <li><a href="#horror">HORROR</a></li>    
+<li><a herf="#animated">ANIMATED</a></li>    
+</ul>    
+ </li>
+  <li><a href="#about">ABOUT</a></li>   
+   <li><a href="#contact">CONTACT</a></li>  
+    </ul>
+<!--------------Navbar Form---------------->
+     <form class="navbar-form navbar-right">
+    <div class="input-group">
+   <input class="form-control" type="email" placeholder="Search">   
+  <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>    
+ </div>   
+</form>     
+ </div> 
+  </div>   
+   </div>    
+    </nav>    
+<!--------------Jumbotron------------------>
+<div class="jumbotron" id="home" style="background:darkslategray;color:black">
+ <h1 class="text-center">MOVIE MANIA</h1>
+  <h3 class="text-center">World's Number One Online Movies Store</h3>
+   <div class="row">
+    <div class="col-sm-4">
+     </div>
+      <div class="col-sm-4">
+       <form class="form-inline" style="padding-top:20px;">
+       <label class="control-label">Subscribe: </label>     
+      <input class="form-control" type="email" placeholder="Someone@gmail.com">   
+     </form>    
+    </div>
+   <div class="col-sm-4">
+  </div>
+ </div>
+</div>
+<!--------------Fictional------------------>
+<div class="container-fluid text-center" id="fictional" style="background:#1c1d22;color:#fff">
+ <h1>DOWNLOAD MOVIES</h1>
+  <h3 style="padding:20px">FICTIONAL</h3>    
+   <div class="row">
+    <div class="col-sm-4">
+     <a href="#"><img src="Images/f1.jpg" width="200px" height="300px"></a>    
+      <h5>BEAUTY AND THE BEAST</h5>  
+       </div>    
+        <div class="col-sm-4">
+        <a href="#"><img src="Images/f2.jpg" width="200px" height="300px"></a>    
+       <h5>GRAVITY</h5>    
+      </div>   
+     <div class="col-sm-4">
+    <a href="#"><img src="Images/f3.jpg" width="200px" height="300px"></a>
+   <h5>JOHN WICK 2</h5>
+  </div>   
+ </div>    
+</div>        
+<!---------------Horror-------------------->
+<div class="container-fluid text-center" id="horror" style="height:500px;background:#1c1d22;color:#fff">
+ <h3 style="padding:20px">HORROR</h3>    
+  <div class="row">
+   <div class="col-sm-4">
+    <a href="#"><img src="Images/h1.jpg" width="200px" height="300px"></a>
+     <h5>RINGS</h5>     
+      </div>    
+       <div class="col-sm-4">
+        <a href="#"><img src="Images/h2.jpg" width="200px" height="300px"></a>    
+        <h5>RED EYE</h5>    
+       </div>   
+      <div class="col-sm-4">
+     <a href="#"><img src="Images/h3.jpg" width="200px" height="300px"></a>
+    <h5>THE INSTITUTE</h5>     
+   </div>   
+  </div>    
+ </div>   
+<!---------------Animated------------------>
+<div class="container-fluid text-center" id="animated" style="height:500px;background:#1c1d22;color:#fff">
+ <h3 style="padding:20px">ANIMATED</h3>    
+  <div class="row">
+   <div class="col-sm-4">
+    <a href="#"><img src="Images/a4.jpg" width="200px" height="300px"></a>    
+     <h5>MOANA</h5>    
+      </div>    
+       <div class="col-sm-4">
+        <a href="#"><img src="Images/a1.jpg" width="200px" height="300px"></a>    
+        <h5>POPEYE</h5>      
+       </div>   
+      <div class="col-sm-4">
+     <a href="#"><img src="Images/a3.jpg" width="200px" height="300px"></a>
+    <h5>THE PEANUTS MOVIE</h5>     
+   </div>   
+  </div>    
+ </div>
+<!---------------About---------------------->
+<div class="container-fluid" id="about" style="background:#92B6D5">
+ <h1 class="text-center" style="margin-bottom:25px">ABOUT US</h1>    
+  <div class="row">
+   <div class="col-sm-6">    
+    <p class="text-capitalize">We have the most famous developers in the world and we have created this website in order to make it easier for the people online to download movies very fast without being destracted by the adds.As we saw in many websites that there is so many adds and so many download buttons one can not ensure that which button to choose as there are so many downlaod buttons.You will get the best experience here so enjoy!</p>       
+     <h3 class="text-center text-success">WEBSITE DESIGNER:</h3>     
+      <img src="Images/IMG_20170319_133423_136.jpg" width="150px" class="img-circle img-thumbnail" style="margin:0 200px">
+      <p style="font-size:19px;font-family:cursive;padding:20px 20px 20px 160px" class="text-success text-capitalize"><strong style="font-size:30px">"</strong>Hello my name is raza haider and i am an professional webdeveloper. i have designed this website and this is an amazing website for downloading movies online<strong style="font-size:30px">"</strong></p>     
+     </div>
+    <div class="col-sm-6">  
+   <span class="glyphicon glyphicon-tint" style="font-size:300px;margin:0 220px;color: #D65076"></span>   
+  </div>    
+ </div>    
+</div>    
+<!--------------Contact--------------------->
+<div class="container-fluid" id="contact" style="padding:20px 40px;background:#f1eaee">
+ <div class="row">
+  <div class="col-sm-5" style="padding:80px 0">
+   <p>Contact us and we'll get back to you within 24 hours.</p>    
+    <p><span class="glyphicon glyphicon-map-marker"></span> Karachi, Pakistan</p>     
+     <p><span class="glyphicon glyphicon-phone"></span>+92 03034-2174761</p>
+     <p><span class="glyphicon glyphicon-envelope"></span> raza.haider147@gmail.com</p>    
+    </div>    
+   <div class="col-sm-7">
+  <h3 style="padding-bottom:20px">CONTACT:</h3>
+<div class="row">
+<div class="col-sm-6 form-group">
+ <input class="form-control" type="text" placeholder="Name">      
+  </div> 
+   <div class="col-sm-6 form-group">           
+    <input class="form-control" type="email" placeholder="Email">
+    </div>    
+   <div class="form-group col-sm-12">     
+  <textarea class="form-control" rows="5" placeholder="Comments"></textarea>   
+ </div> 
+<div class="col-sm-12 form-group">
+ <button type="submit" class="btn btn-default btn-sm pull-right">Submit</button>
+  </div>     
+   </div>   
+    </div>   
+     </div>        
+      </div>    
+<!---------------Footer-------------------->
+<footer class="text-center">
+  Bootstrap theme made by <a>Raza Haider</a><br>
+  &copy; Raza.inc    
+</footer>
+</body>
+</html>    
